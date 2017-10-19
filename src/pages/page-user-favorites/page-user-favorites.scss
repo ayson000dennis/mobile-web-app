@@ -1,0 +1,158 @@
+page-user-favorites {
+  .scroll-content {
+    background: #fff !important;
+
+    .favorites-holder {
+      margin-top: -20px;
+
+      .page-title {
+        color: #555;
+        font-size: 25px;
+        text-align: left;
+      }
+      .favorites {
+        display: block;
+        margin-top: 20px;
+        border-bottom: 1px solid #e4e4e4;
+
+        .media-body {
+          display: block;
+          flex: 1;
+          margin-top: 0;
+        }
+
+        .col-xs-8 {
+          display: flex;
+        }
+
+        .img-holder {
+          margin: 0 15px 0 0;
+          width: 90px;
+          height: 90px;
+          object-fit: cover;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+
+        .text-holder {
+          position: relative;
+          color: #555;
+
+          h3 {
+            margin-top: 0px;
+            font-size: 16px;
+          }
+
+          div { font-size: 12px; }
+
+          .company-text {
+            margin-bottom: 4px;
+            color: #f5a14e;
+          }
+
+          .location-text { display: block; }
+
+          .expiration-text {
+            display: block;
+            margin: 5px auto;
+          }
+
+          .fa-chevron-right {
+            position: absolute;
+            top: 30px;
+            right: 5px;
+
+            color: #b1b1b1 !important;
+
+            cursor: pointer;
+          }
+        }
+
+        .favorites-button {
+          display: flex;
+          width: 100%;
+          margin: 10px 0;
+
+          .btn {
+            position: relative;
+            padding: 15px;
+            margin: 3px;
+            width: 50%;
+
+            font-family: "Raleway Regular";
+            font-size: 13px;
+            text-align: left;
+            text-decoration: none;
+            color: #fff;
+
+            border-radius: 6px;
+
+            cursor: pointer;
+
+            &:first-child {
+              margin-left: 0;
+            }
+
+            &:nth-child(2) {
+              margin-right: 0;
+            }
+
+            i {
+              position: absolute;
+              top: 18px;
+              left: 85%;
+
+              font-size: 12px;
+            }
+
+            &.remove-btn {
+              color: #807f7f;
+
+              background-color: #e1e1e1;
+              transition: all 0.3s ease-in-out;
+            }
+
+            &.btn-more {
+              background-color: #f79122;
+            }
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+ion-alert {
+  .alert-wrapper {
+    border-radius: 0 !important;
+
+
+    .alert-head {
+      height: 70px !important;
+      .alert-title {
+        font-size: 14px !important;
+        font-weight: 400;
+      }
+    }
+
+    .alert-message { display: none !important; }
+
+    .alert-button {
+      .button-inner {
+        font-size: 14px;
+        font-weight: 400;
+        color: #141414 !important;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <p class="title">
+      <img class="btn-nav" src="assets/icon/icon-back.png" alt="" (click)="goBack()">
+      <span *ngIf="this.title">{{this.title}}</span>
+    </p>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="stamps-window">
+    <div class="holder-stamps"></div>
+  </div>
+</ion-content>
